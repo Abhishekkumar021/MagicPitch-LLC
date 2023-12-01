@@ -4,6 +4,7 @@ import sqlite3
 import re
 
 app = FastAPI()
+
 templates = Jinja2Templates(directory="templates")
 
 
